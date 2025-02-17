@@ -1,0 +1,17 @@
+{"time":"2024-10-29T10:51:17.179857-07:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-29T10:51:17.179899-07:00","level":"INFO","msg":"created symlink","path":"/Users/phillipsm/Documents/Teaching/AI_in_PlanetaryXXX/Code/07_Neural_Networks/notebooks/wandb/run-20241029_105117-f2h7d08o/logs/debug-core.log"}
+{"time":"2024-10-29T10:51:17.300732-07:00","level":"INFO","msg":"created new stream","id":"f2h7d08o"}
+{"time":"2024-10-29T10:51:17.30079-07:00","level":"INFO","msg":"stream: started","id":"f2h7d08o"}
+{"time":"2024-10-29T10:51:17.300832-07:00","level":"INFO","msg":"sender: started","stream_id":"f2h7d08o"}
+{"time":"2024-10-29T10:51:17.30083-07:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"f2h7d08o"}}
+{"time":"2024-10-29T10:51:17.300873-07:00","level":"INFO","msg":"handler: started","stream_id":{"value":"f2h7d08o"}}
+{"time":"2024-10-29T10:51:17.685606-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-29T10:56:30.167984-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-29T10:56:30.168833-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-29T10:56:31.176342-07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.806227791,"subtasks":[{"desc":"wandb-job.json","runtime_seconds":0.132460833,"progress":"1.2KB/1.2KB"},{"desc":"requirements.frozen.txt","runtime_seconds":0.132420542,"progress":"2.8KB/2.8KB"}]}],"total_operations":1}}
+{"time":"2024-10-29T10:56:31.92968-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-29T10:56:33.105149-07:00","level":"INFO","msg":"stream: closing","id":"f2h7d08o"}
+{"time":"2024-10-29T10:56:33.105218-07:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"f2h7d08o"}}
+{"time":"2024-10-29T10:56:33.105266-07:00","level":"INFO","msg":"sender: closed","stream_id":"f2h7d08o"}
+{"time":"2024-10-29T10:56:33.105256-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"f2h7d08o"}}
+{"time":"2024-10-29T10:56:33.105574-07:00","level":"INFO","msg":"stream: closed","id":"f2h7d08o"}

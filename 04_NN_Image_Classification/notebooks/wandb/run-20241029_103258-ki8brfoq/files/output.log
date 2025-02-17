@@ -1,0 +1,24 @@
+Epoch 1/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 165ms/step - accuracy: 0.5340 - fbeta_score: 0.4484 - loss: 0.6930 - mean_iou: 0.3040 - val_accuracy: 0.5414 - val_fbeta_score: 0.3803 - val_loss: 0.6923 - val_mean_iou: 0.2707 - learning_rate: 0.0100
+Epoch 2/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 152ms/step - accuracy: 0.5141 - fbeta_score: 0.4724 - loss: 0.6928 - mean_iou: 0.3157 - val_accuracy: 0.5414 - val_fbeta_score: 0.3803 - val_loss: 0.6931 - val_mean_iou: 0.2707 - learning_rate: 0.0100
+Epoch 3/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 154ms/step - accuracy: 0.5235 - fbeta_score: 0.4655 - loss: 0.6926 - mean_iou: 0.3131 - val_accuracy: 0.5414 - val_fbeta_score: 0.3803 - val_loss: 0.6922 - val_mean_iou: 0.2707 - learning_rate: 0.0100
+Epoch 4/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 150ms/step - accuracy: 0.5517 - fbeta_score: 0.3946 - loss: 0.6930 - mean_iou: 0.2770 - val_accuracy: 0.4586 - val_fbeta_score: 0.2884 - val_loss: 0.6951 - val_mean_iou: 0.2293 - learning_rate: 0.0100
+Epoch 5/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 146ms/step - accuracy: 0.4652 - fbeta_score: 0.3452 - loss: 0.6942 - mean_iou: 0.2548 - val_accuracy: 0.5414 - val_fbeta_score: 0.3803 - val_loss: 0.6911 - val_mean_iou: 0.2707 - learning_rate: 0.0100
+Epoch 6/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 146ms/step - accuracy: 0.5349 - fbeta_score: 0.4837 - loss: 0.6926 - mean_iou: 0.3235 - val_accuracy: 0.5414 - val_fbeta_score: 0.3803 - val_loss: 0.6923 - val_mean_iou: 0.2707 - learning_rate: 0.0100
+Epoch 7/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 141ms/step - accuracy: 0.4612 - fbeta_score: 0.3399 - loss: 0.6944 - mean_iou: 0.2507 - val_accuracy: 0.5414 - val_fbeta_score: 0.3803 - val_loss: 0.6916 - val_mean_iou: 0.2707 - learning_rate: 0.0100
+Epoch 8/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 144ms/step - accuracy: 0.5483 - fbeta_score: 0.4331 - loss: 0.6926 - mean_iou: 0.2963 - val_accuracy: 0.4586 - val_fbeta_score: 0.2884 - val_loss: 0.9159 - val_mean_iou: 0.2293 - learning_rate: 0.0100
+Epoch 9/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 143ms/step - accuracy: 0.4988 - fbeta_score: 0.4590 - loss: 0.6934 - mean_iou: 0.3117 - val_accuracy: 0.4656 - val_fbeta_score: 0.3486 - val_loss: 0.7485 - val_mean_iou: 0.2550 - learning_rate: 0.0100
+Epoch 10/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 146ms/step - accuracy: 0.5063 - fbeta_score: 0.4687 - loss: 0.6942 - mean_iou: 0.3153 - val_accuracy: 0.5414 - val_fbeta_score: 0.3803 - val_loss: 0.6914 - val_mean_iou: 0.2707 - learning_rate: 0.0100
+Epoch 11/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 142ms/step - accuracy: 0.5518 - fbeta_score: 0.4332 - loss: 0.6918 - mean_iou: 0.2967 - val_accuracy: 0.4586 - val_fbeta_score: 0.2884 - val_loss: 0.6951 - val_mean_iou: 0.2293 - learning_rate: 0.0100
+Epoch 12/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 149ms/step - accuracy: 0.4693 - fbeta_score: 0.4303 - loss: 0.6939 - mean_iou: 0.2927 - val_accuracy: 0.5414 - val_fbeta_score: 0.3803 - val_loss: 0.6909 - val_mean_iou: 0.2707 - learning_rate: 0.0100

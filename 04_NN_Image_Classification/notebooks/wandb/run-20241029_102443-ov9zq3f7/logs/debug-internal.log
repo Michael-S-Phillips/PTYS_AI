@@ -1,0 +1,17 @@
+{"time":"2024-10-29T10:24:43.668281-07:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-29T10:24:43.668337-07:00","level":"INFO","msg":"created symlink","path":"/Users/phillipsm/Documents/Teaching/AI_in_PlanetaryXXX/Code/07_Neural_Networks/notebooks/wandb/run-20241029_102443-ov9zq3f7/logs/debug-core.log"}
+{"time":"2024-10-29T10:24:43.777704-07:00","level":"INFO","msg":"created new stream","id":"ov9zq3f7"}
+{"time":"2024-10-29T10:24:43.777741-07:00","level":"INFO","msg":"stream: started","id":"ov9zq3f7"}
+{"time":"2024-10-29T10:24:43.777746-07:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ov9zq3f7"}}
+{"time":"2024-10-29T10:24:43.777781-07:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ov9zq3f7"}}
+{"time":"2024-10-29T10:24:43.777787-07:00","level":"INFO","msg":"sender: started","stream_id":"ov9zq3f7"}
+{"time":"2024-10-29T10:24:43.978975-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-29T10:27:02.877091-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-29T10:27:02.879905-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-29T10:27:03.492489-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-29T10:27:03.636375-07:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-10-29T10:27:04.662665-07:00","level":"INFO","msg":"stream: closing","id":"ov9zq3f7"}
+{"time":"2024-10-29T10:27:04.662726-07:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"ov9zq3f7"}}
+{"time":"2024-10-29T10:27:04.662765-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ov9zq3f7"}}
+{"time":"2024-10-29T10:27:04.662778-07:00","level":"INFO","msg":"sender: closed","stream_id":"ov9zq3f7"}
+{"time":"2024-10-29T10:27:04.66287-07:00","level":"INFO","msg":"stream: closed","id":"ov9zq3f7"}

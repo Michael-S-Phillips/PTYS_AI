@@ -1,0 +1,47 @@
+{"time":"2024-10-24T09:35:18.770363-07:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-24T09:35:18.770447-07:00","level":"INFO","msg":"created symlink","path":"/Users/phillipsm/Documents/Teaching/AI_in_PlanetaryXXX/Code/07_Neural_Networks/notebooks/wandb/run-20241024_093515-go1naasx/logs/debug-core.log"}
+{"time":"2024-10-24T09:35:18.881464-07:00","level":"INFO","msg":"created new stream","id":"go1naasx"}
+{"time":"2024-10-24T09:35:18.881501-07:00","level":"INFO","msg":"stream: started","id":"go1naasx"}
+{"time":"2024-10-24T09:35:18.881524-07:00","level":"INFO","msg":"sender: started","stream_id":"go1naasx"}
+{"time":"2024-10-24T09:35:18.881511-07:00","level":"INFO","msg":"handler: started","stream_id":{"value":"go1naasx"}}
+{"time":"2024-10-24T09:35:18.881535-07:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"go1naasx"}}
+{"time":"2024-10-24T09:35:19.088469-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-24T09:38:03.271877-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-24T09:41:13.770142-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-24T09:41:13.775777-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-24T09:41:14.102046-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-24T09:41:14.10507-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-24T09:41:14.827818-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-24T09:41:14.830024-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-24T09:41:15.053224-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-24T09:41:15.062301-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-24T09:41:15.145356-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-24T09:41:15.147679-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-24T09:41:15.288875-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-24T09:41:15.291974-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-24T09:41:15.475108-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-24T09:41:15.478369-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-24T09:41:15.575589-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-24T09:41:15.578301-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-24T09:41:16.911947-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-24T09:41:16.914697-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-24T09:48:13.507323-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-24T09:48:13.52334-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-24T09:48:14.84772-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-24T09:48:14.850525-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-24T09:48:15.055124-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-24T09:48:15.059439-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-24T09:48:15.549891-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-24T09:48:15.552749-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-24T09:48:15.917921-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-24T09:48:15.921549-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-24T09:48:21.420973-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-24T09:48:21.483484-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-24T09:48:21.485059-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-24T09:48:22.490097-07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.838521084}],"total_operations":1}}
+{"time":"2024-10-24T09:48:23.295992-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-24T09:48:24.505603-07:00","level":"INFO","msg":"stream: closing","id":"go1naasx"}
+{"time":"2024-10-24T09:48:24.505638-07:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"go1naasx"}}
+{"time":"2024-10-24T09:48:24.505671-07:00","level":"INFO","msg":"sender: closed","stream_id":"go1naasx"}
+{"time":"2024-10-24T09:48:24.505667-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"go1naasx"}}
+{"time":"2024-10-24T09:48:24.505823-07:00","level":"INFO","msg":"stream: closed","id":"go1naasx"}

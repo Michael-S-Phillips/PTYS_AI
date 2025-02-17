@@ -1,0 +1,71 @@
+Epoch 1/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 160ms/step - accuracy: 0.5048 - fbeta_score: 0.4979 - loss: 0.6992 - mean_iou: 0.3287 - val_accuracy: 0.4742 - val_fbeta_score: 0.3977 - val_loss: 0.6935 - val_mean_iou: 0.2787 - learning_rate: 0.0010
+Epoch 2/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 148ms/step - accuracy: 0.5125 - fbeta_score: 0.5076 - loss: 0.6961 - mean_iou: 0.3366 - val_accuracy: 0.5414 - val_fbeta_score: 0.3803 - val_loss: 0.6913 - val_mean_iou: 0.2707 - learning_rate: 0.0010
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 0 that is less than the current step 1. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Epoch 3/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 139ms/step - accuracy: 0.5081 - fbeta_score: 0.5079 - loss: 0.6964 - mean_iou: 0.3379 - val_accuracy: 0.4586 - val_fbeta_score: 0.2884 - val_loss: 0.6952 - val_mean_iou: 0.2293 - learning_rate: 0.0010
+Epoch 4/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 141ms/step - accuracy: 0.5016 - fbeta_score: 0.4948 - loss: 0.6969 - mean_iou: 0.3277 - val_accuracy: 0.5414 - val_fbeta_score: 0.3803 - val_loss: 0.6896 - val_mean_iou: 0.2707 - learning_rate: 0.0010
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1 that is less than the current step 2. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 2 that is less than the current step 3. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Epoch 5/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 140ms/step - accuracy: 0.5337 - fbeta_score: 0.5088 - loss: 0.6953 - mean_iou: 0.3395 - val_accuracy: 0.5414 - val_fbeta_score: 0.3803 - val_loss: 0.6933 - val_mean_iou: 0.2707 - learning_rate: 0.0010
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 3 that is less than the current step 4. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Epoch 6/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 143ms/step - accuracy: 0.5075 - fbeta_score: 0.4905 - loss: 0.7002 - mean_iou: 0.3265 - val_accuracy: 0.5414 - val_fbeta_score: 0.3803 - val_loss: 0.6898 - val_mean_iou: 0.2707 - learning_rate: 0.0010
+Epoch 7/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 146ms/step - accuracy: 0.5135 - fbeta_score: 0.4997 - loss: 0.6963 - mean_iou: 0.3307 - val_accuracy: 0.5414 - val_fbeta_score: 0.3803 - val_loss: 0.6909 - val_mean_iou: 0.2707 - learning_rate: 0.0010
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 4 that is less than the current step 5. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 5 that is less than the current step 6. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Epoch 8/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 141ms/step - accuracy: 0.4969 - fbeta_score: 0.4952 - loss: 0.7007 - mean_iou: 0.3289 - val_accuracy: 0.5414 - val_fbeta_score: 0.3803 - val_loss: 0.6921 - val_mean_iou: 0.2707 - learning_rate: 0.0010
+Epoch 9/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 147ms/step - accuracy: 0.4979 - fbeta_score: 0.4912 - loss: 0.6969 - mean_iou: 0.3278 - val_accuracy: 0.4586 - val_fbeta_score: 0.2884 - val_loss: 0.6950 - val_mean_iou: 0.2293 - learning_rate: 0.0010
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 6 that is less than the current step 7. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 7 that is less than the current step 8. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Epoch 10/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 150ms/step - accuracy: 0.4996 - fbeta_score: 0.4964 - loss: 0.6954 - mean_iou: 0.3304 - val_accuracy: 0.5650 - val_fbeta_score: 0.5370 - val_loss: 0.6924 - val_mean_iou: 0.3683 - learning_rate: 2.0000e-04
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 8 that is less than the current step 9. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Epoch 11/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 143ms/step - accuracy: 0.4976 - fbeta_score: 0.4969 - loss: 0.6942 - mean_iou: 0.3311 - val_accuracy: 0.5414 - val_fbeta_score: 0.3803 - val_loss: 0.6911 - val_mean_iou: 0.2707 - learning_rate: 2.0000e-04
+Epoch 12/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 142ms/step - accuracy: 0.5026 - fbeta_score: 0.5024 - loss: 0.6949 - mean_iou: 0.3355 - val_accuracy: 0.5416 - val_fbeta_score: 0.3807 - val_loss: 0.6912 - val_mean_iou: 0.2710 - learning_rate: 2.0000e-04
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 9 that is less than the current step 10. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 10 that is less than the current step 11. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Epoch 13/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 141ms/step - accuracy: 0.5182 - fbeta_score: 0.5154 - loss: 0.6938 - mean_iou: 0.3437 - val_accuracy: 0.5414 - val_fbeta_score: 0.3803 - val_loss: 0.6902 - val_mean_iou: 0.2707 - learning_rate: 2.0000e-04
+Epoch 14/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 146ms/step - accuracy: 0.5123 - fbeta_score: 0.5124 - loss: 0.6947 - mean_iou: 0.3443 - val_accuracy: 0.5748 - val_fbeta_score: 0.5751 - val_loss: 0.6872 - val_mean_iou: 0.4017 - learning_rate: 2.0000e-04
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 11 that is less than the current step 12. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 12 that is less than the current step 13. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Epoch 15/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 145ms/step - accuracy: 0.5226 - fbeta_score: 0.5237 - loss: 0.6944 - mean_iou: 0.3533 - val_accuracy: 0.5414 - val_fbeta_score: 0.3803 - val_loss: 0.6894 - val_mean_iou: 0.2707 - learning_rate: 2.0000e-04
+Epoch 16/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 146ms/step - accuracy: 0.5025 - fbeta_score: 0.5019 - loss: 0.6967 - mean_iou: 0.3336 - val_accuracy: 0.5414 - val_fbeta_score: 0.3803 - val_loss: 0.6895 - val_mean_iou: 0.2707 - learning_rate: 2.0000e-04
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 13 that is less than the current step 14. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 14 that is less than the current step 15. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Epoch 17/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 146ms/step - accuracy: 0.5222 - fbeta_score: 0.5039 - loss: 0.6952 - mean_iou: 0.3344 - val_accuracy: 0.5414 - val_fbeta_score: 0.3803 - val_loss: 0.6911 - val_mean_iou: 0.2707 - learning_rate: 2.0000e-04
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 15 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Epoch 18/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 145ms/step - accuracy: 0.4927 - fbeta_score: 0.4850 - loss: 0.6945 - mean_iou: 0.3249 - val_accuracy: 0.5429 - val_fbeta_score: 0.3844 - val_loss: 0.6912 - val_mean_iou: 0.2731 - learning_rate: 2.0000e-04
+Epoch 19/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 137ms/step - accuracy: 0.5073 - fbeta_score: 0.5069 - loss: 0.6947 - mean_iou: 0.3374 - val_accuracy: 0.4886 - val_fbeta_score: 0.4526 - val_loss: 0.6930 - val_mean_iou: 0.3085 - learning_rate: 2.0000e-04
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 16 that is less than the current step 17. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 17 that is less than the current step 18. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Epoch 20/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 139ms/step - accuracy: 0.5009 - fbeta_score: 0.5002 - loss: 0.6950 - mean_iou: 0.3341 - val_accuracy: 0.5109 - val_fbeta_score: 0.5013 - val_loss: 0.6925 - val_mean_iou: 0.3399 - learning_rate: 4.0000e-05
+Epoch 21/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 141ms/step - accuracy: 0.5050 - fbeta_score: 0.5063 - loss: 0.6942 - mean_iou: 0.3362 - val_accuracy: 0.5626 - val_fbeta_score: 0.5256 - val_loss: 0.6919 - val_mean_iou: 0.3597 - learning_rate: 4.0000e-05
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 18 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 19 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Epoch 22/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 144ms/step - accuracy: 0.5069 - fbeta_score: 0.5081 - loss: 0.6941 - mean_iou: 0.3387 - val_accuracy: 0.5127 - val_fbeta_score: 0.5042 - val_loss: 0.6924 - val_mean_iou: 0.3419 - learning_rate: 4.0000e-05
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 20 that is less than the current step 21. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Epoch 23/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 148ms/step - accuracy: 0.5066 - fbeta_score: 0.5082 - loss: 0.6934 - mean_iou: 0.3383 - val_accuracy: 0.5530 - val_fbeta_score: 0.5518 - val_loss: 0.6921 - val_mean_iou: 0.3787 - learning_rate: 4.0000e-05
+Epoch 24/50
+[1m41/41[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m6s[0m 147ms/step - accuracy: 0.5032 - fbeta_score: 0.5035 - loss: 0.6957 - mean_iou: 0.3361 - val_accuracy: 0.5685 - val_fbeta_score: 0.5085 - val_loss: 0.6917 - val_mean_iou: 0.3494 - learning_rate: 4.0000e-05
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 21 that is less than the current step 22. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 22 that is less than the current step 23. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
