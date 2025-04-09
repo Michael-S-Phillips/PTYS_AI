@@ -24,40 +24,69 @@ This repository contains code and resources for simulating and analyzing the top
 
 ### Parameter Discovery
 
-The `KtDiscovery` class extends the `CraterDiffusionPINN` class to discover the optimal `kappa`, radius, and time values that fit a given height array.
+The `CraterDiffusionPINN` class can be used to discover the optimal `kappa`, radius, and time values that fit a given height array.
 
 ### Example Usage
 
 ```python
 import numpy as np
 import tensorflow as tf
-from crater_diffusion_pinn import CraterDiffusionPINN, KtDiscovery
+import matplotlib.pyplot as plt
+from tqdm import tqdm
+from sklearn.model_selection import train_test_split
+from crater_diffusion_pinn import CraterDiffusionPINN
+from crater_diffusion_utils import plot_crater_times
 
-# Define the parameters
-kappa = 5.5  # Initial guess for kappa
-radius = 150  # Initial guess for crater radius in meters
-r_max = 2 * radius  # Maximum radial distance for sampling points
-t_max = 3000  # Initial guess for time in million years
+# Parameters
+kappa = 5.5  # diffusion coefficient (m²/Myr)
+D = 100 * np.pi / 2 #np.sqrt(kappa)  # crater diameter (m), sqrt kappa makes the time scaling 1:1 at 1 million years.
+radius = D / 2.0
+r_max = tf.cast(D, dtype=tf.float32)  # half grid extent in meters
+t_max = np.ceil(D**2 / kappa) # appx 4.5 Gyr
 
-# Create the KtDiscovery instance
-kt_discovery = KtDiscovery(kappa, radius, r_max, t_max)
-kt_discovery.model = kt_discovery._build_network()
+# Create and train the PINN
+pinn = CraterDiffusionPINN(kappa, radius, r_max, t_max)
+pinn.model = pinn._build_network()
+# pinn.model.load_weights("pinn_pure_10000_epoch_varD.keras")
+losses = pinn.train(n_epochs=50000, n_points = 1000)
 
-# Generate some synthetic data for testing
-x = np.linspace(-r_max, r_max, 100)
-y = np.linspace(-r_max, r_max, 100)
+# Predict at different times
+times = [0, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000]
+# times = [t_max * ts / (0.5 * times[-1])  for ts in times]
+predictions = []
+
+# Parameters for visualization
+kappa = 5.5  # diffusion coefficient (m²/Myr)
+D = 300
+radius = D / 2.0
+r_max = tf.cast(D, dtype=tf.float32)  # half grid extent in meters
+t_max = 4500
+
+# Create prediction grid
+x = np.linspace(-r_max, r_max, 100)  # Grid in meters
+y = np.linspace(-r_max, r_max, 100)  # Grid in meters
 X, Y = np.meshgrid(x, y)
-h_true = np.sin(X) * np.cos(Y)  # Replace with your actual height data
 
-# Flatten the arrays for input to the model
-x_flat = X.flatten()
-y_flat = Y.flatten()
-h_true_flat = h_true.flatten()
+pinn.__init__(kappa, radius, r_max, t_max)
 
-# Discover the kappa, radius, and time values
-kappa_discovered, time_discovered, radius_discovered = kt_discovery.discover_parameters(x_flat, y_flat, h_true_flat, n_epochs=1000, learning_rate=0.01)
+for t in times:
+    h_pred = pinn.predict(X.flatten(), Y.flatten(), t * np.ones_like(X.flatten()))
+    predictions.append(D * h_pred.reshape(X.shape))
 
-print(f"Discovered Kappa: {kappa_discovered}, Discovered Time: {time_discovered}, Discovered Radius: {radius_discovered}")
+fig = plot_crater_times(predictions, x, y, kappa, times, "Crater Diffusion Over Time")
+fig.show()
+
+# Plot loss history
+plt.figure(figsize=(8, 4))
+plt.semilogy(losses[:, 0], label='Total Loss')
+plt.semilogy(losses[:, 1], label='PDE Loss')
+plt.semilogy(losses[:, 2], label='Initial Condition Loss')
+plt.semilogy(losses[:, 3], label='Boundary Condition Loss')
+plt.xlabel('Epoch')
+plt.ylabel('Loss')
+plt.legend()
+plt.grid(True)
+plt.show()
 ```
 ![Crater Diffusion Simulation](crater_diffusion_300m_pinn.gif)
 ## Visualization
